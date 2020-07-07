@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+/* nav-bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*end of nav-bar*/
+
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.img-container:hover {
+    opacity: 0.6;
+    background-color: rgb(125, 230, 224);
+  
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.active {
+    background-color: rgb(226, 15, 15);
+}
+
+.clearfix h2 {
+    text-align: center;
+    text-shadow: 4px 4px rgb(10, 12, 11);
+    color: rgb(7, 89, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bolder;
+    font-style: oblique;
+}
+
+
+
+#news {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    font-family: cursive;
+    color: rgb(226, 13, 226);
+    font-size: 18px;
+    
+}
+
+.jumbotron {
+    width: 48%;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: grey;
+}
+
+#about {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(62, 139, 165);
+    color: rgb(236, 224, 46);
+    font-family: monospace;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+#contact {
+
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(216, 156, 66);
+    color: black;
+    height: 200px;
+
+}
+#lastpage {
+
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(4, 7, 3);
+    color: black;
+
+}
+
+#footer {
+   width: 100%;
+   margin: 7px;
+   background-color: #271f1f;
+   text-align:center;
+   padding:10px;
+   margin-top:7px;
+   color: white;
+   font-weight: 600;
+   font-family: monospace;
+   font-size: 16px;
+}
+
+        /*      Media Queries    */
+@media only screen and (max-width : 700px) {
+   
+    #news {
+        width: 100%;
+        padding: 10px;
+    }
+    #about {
+        width: 100%;
+    }
+    .img-container {
+        width: 100%;
+    }
+    #contact {
+        width: 100%;
+    }
+
+    #picha {
+        width: 100%;
+    }
+
+    #lastpage {
+        width: 100%;
+        font-size: 11px;
+        height: 200px;
+        
+        
+    }
+    
+}
