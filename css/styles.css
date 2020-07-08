@@ -54,12 +54,9 @@ li a:hover {
 }
 
 .clearfix h2 {
-    text-align: center;
-    text-shadow: 4px 4px rgb(10, 12, 11);
-    color: rgb(7, 89, 128);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
    font-weight: bolder;
-    font-style: oblique;
+   font-style: oblique;
 }
 
 
@@ -67,49 +64,42 @@ li a:hover {
 #news {
     text-align: left;
     padding: 10px;
-    margin: 10px;
-    background-color: rgb(26, 25, 25);
-    color: white;
-    font-family: cursive;
-    color: rgb(226, 13, 226);
-    font-size: 18px;
-    
+    margin: 6px;
+    background-color: white;
+    color: black;
+    font-size: 18px;    
+
 }
 
 .jumbotron {
     width: 48%;
     float: left;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: grey;
+    
 }
 
 #about {
     text-align: left;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
-    background-color: rgb(62, 139, 165);
-    color: rgb(236, 224, 46);
-    font-family: monospace;
     font-size: 18px;
-    font-style: oblique;
+    background-color: white;
+    
 }
 
 #contact {
 
     padding: 10px;
     margin: 10px;
-    background-color: rgb(216, 156, 66);
-    color: black;
+    background-color: white;
     height: 200px;
 
 }
 #lastpage {
 
     padding: 10px;
-    margin: 10px;
-    background-color: rgb(4, 7, 3);
-    color: black;
-
+    margin: 5px;
+    background-color:white;
+   color: black;
 }
 
 #footer {
@@ -121,7 +111,6 @@ li a:hover {
    margin-top:7px;
    color: white;
    font-weight: 600;
-   font-family: monospace;
    font-size: 16px;
 }
 
@@ -130,7 +119,7 @@ li a:hover {
    
     #news {
         width: 100%;
-        padding: 10px;
+      
     }
     #about {
         width: 100%;
@@ -148,7 +137,7 @@ li a:hover {
 
     #lastpage {
         width: 100%;
-        font-size: 11px;
+        font-size: 12.5px;
         height: 200px;
         
         
